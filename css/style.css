@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 50px 500px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    width: fit-content;
+  }
+
+textarea {
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    resize: none;
+}
+
+.sayac-container {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    pointer-events: none;
+}
+
+textarea.uyari {
+    color: red;
+}

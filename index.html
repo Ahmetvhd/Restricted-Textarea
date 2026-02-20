@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roadmap.sh Frontend Restricted Textarea Projesi">
+
+    <meta property="og:title" content="Restricted Textarea | Ahmet Koca">
+    <meta property="og:description" content="Roadmap.sh Frontend Restricted Textarea Projesi">
+    <meta property="og:image" content="https://site.com/resim.jpg">
+    <meta property="og:url" content="https://site.com">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/ak_favicon_32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Restricted Textarea | Ahmet Koca</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <textarea name="textarea" id="textarea" rows="5" cols="50" placeholder="Mesajınızı buraya giriniz..." oninput="guncelle()" maxlength="250"></textarea>
+
+        <div class="sayac-container">
+
+            <span id="sayac">0</span> / 250
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js">
+    </script>
+</body>
+
+</html>
